@@ -28,5 +28,10 @@ namespace KnowledgeCheck1_Calculator
         {
             return first / second;
         }
+
+        public string NumberEntry()
+        {
+            return Console.ReadLine();
+        }
     }
 }
